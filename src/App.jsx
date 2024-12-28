@@ -10,7 +10,7 @@ function App() {
   return (
     <div className='main'>
       <div className='toppart'></div>
-      <h1 className='events-heading'><center>EVENTS</center></h1>
+      <h2 className='events-heading'><center>EVENTS</center></h2>
       
       <div className='content'>
         <div className='mainbox'>
@@ -18,31 +18,37 @@ function App() {
             <img  className="poster" src={Hackstreet} alt="hackstreetimg"></img>
             <h2>HACKSTREET 2.0</h2>
             <h3>4th Feb 2025</h3>
+            <button>Register</button>
           </div>
           <div className=' box '>
             <img  className="poster" src={Hackstreet} alt="hackstreetimg"></img>
             <h2>HACKSTREET 2.0</h2>
             <h3>4th Feb 2025</h3>
+            <button>Register</button>
           </div>
           <div className=' box '>
             <img  className="poster" src={Hackstreet} alt="hackstreetimg"></img>
             <h2>HACKSTREET 2.0</h2>
             <h3>4th Feb 2025</h3>
+            <button>Register</button>
           </div>
           <div className=' box '>
             <img  className="poster" src={Hackstreet} alt="hackstreetimg"></img>
             <h2>HACKSTREET 2.0</h2>
             <h3>4th Feb 2025</h3>
+            <button>Register</button>
           </div>
           <div className=' box '>
             <img  className="poster" src={Hackstreet} alt="hackstreetimg"></img>
             <h2>HACKSTREET 2.0</h2>
             <h3>4th Feb 2025</h3>
+            <button>Register</button>
           </div>
           <div className=' box '>
             <img  className="poster" src={Hackstreet} alt="hackstreetimg"></img>
             <h2>HACKSTREET 2.0</h2>
             <h3>4th Feb 2025</h3>
+            <button>Register</button>
           </div>
 
          
