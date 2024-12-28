@@ -53,7 +53,8 @@
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap:40px;
+  gap:60px;
+  margin-inline: 100px;
 } 
 .box{
   height: 300px;
