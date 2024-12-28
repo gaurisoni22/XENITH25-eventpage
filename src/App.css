@@ -12,19 +12,18 @@
 }
 
 .toppart{
-  position: relative;
-  width: 100%;
+  background-image: url("assets/icetopbg.jpg");
+  background-size: contain;
+  width:100%;
+  height:20vh;
 }
 
 .icewidth {
   width: 100%;
+  height: 20vh;
 }
 
-.text-overlay {
-  position: absolute;
-  top: 40%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%);
+.events-heading {
   color: white;
   font-size: 2rem;
   font-weight: bold;

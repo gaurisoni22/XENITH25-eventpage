@@ -8,10 +8,8 @@ function App() {
 
   return (
     <div className='main'>
-      <div className='toppart'>
-        <img src={icetopbg} alt='icetopbg' className='icewidth' />
-        <div className="text-overlay">EVENTS</div>
-      </div>
+      <div className='toppart'></div>
+      <h1 className='events-heading'><center>EVENTS</center></h1>
       
       <div className='content'>
         <div className='mainbox'>
