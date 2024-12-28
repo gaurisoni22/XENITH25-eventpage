@@ -57,7 +57,7 @@
   margin-inline: 100px;
 } 
 .box{
-  height: 300px;
+  height: 350px;
   width:300px;
   background-color: #539cc9;
   border-radius: 25px;
@@ -67,7 +67,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition:all 0.8s;
+  transition:all 0.9s;
+  gap:5px;
   
 }
 .poster{
@@ -76,7 +77,10 @@
  
 }
 button{
-  background-color:rgb(187, 230, 229);
+  width:80px;
+  height:30px;
+  background-color:lightblue;
+  border-radius: 10px;
 }
  .box:hover{
   transform: scale(110%);
@@ -92,10 +96,16 @@ button{
 .box>h3{
   display:none;
 }
+.box>button{
+  display:none;
+}
 .box:hover>h2{
   display:block;
 }
 .box:hover>h3{
+  display:block;
+}
+.box:hover>button{
   display:block;
 }
 
