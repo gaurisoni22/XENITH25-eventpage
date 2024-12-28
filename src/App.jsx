@@ -1,16 +1,18 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import icetopbg from './assets/icetopbg.jpg'
+import icebottombg from './assets/icebottombg.jpg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <>
-     <h1>HIIIIII welcome</h1>
-    </>
+    <div className='main'>
+      <img  className="icewidth"   src={icetopbg} alt="icetop"></img>
+      <img   className="icewidth"   src={icebottombg} alt="icebottom"></img>
+    </div>
   )
+
 }
 
 export default App
