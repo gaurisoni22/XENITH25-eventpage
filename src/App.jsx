@@ -19,9 +19,33 @@ function App() {
             <h2>HACKSTREET 2.0</h2>
             <h3>4th Feb 2025</h3>
           </div>
+          <div className=' box '>
+            <img  className="poster" src={Hackstreet} alt="hackstreetimg"></img>
+            <h2>HACKSTREET 2.0</h2>
+            <h3>4th Feb 2025</h3>
+          </div>
+          <div className=' box '>
+            <img  className="poster" src={Hackstreet} alt="hackstreetimg"></img>
+            <h2>HACKSTREET 2.0</h2>
+            <h3>4th Feb 2025</h3>
+          </div>
+          <div className=' box '>
+            <img  className="poster" src={Hackstreet} alt="hackstreetimg"></img>
+            <h2>HACKSTREET 2.0</h2>
+            <h3>4th Feb 2025</h3>
+          </div>
+          <div className=' box '>
+            <img  className="poster" src={Hackstreet} alt="hackstreetimg"></img>
+            <h2>HACKSTREET 2.0</h2>
+            <h3>4th Feb 2025</h3>
+          </div>
+          <div className=' box '>
+            <img  className="poster" src={Hackstreet} alt="hackstreetimg"></img>
+            <h2>HACKSTREET 2.0</h2>
+            <h3>4th Feb 2025</h3>
+          </div>
 
-          <div className=' box '>eureka</div>
-          <div className=' box '>eureka</div>
+         
         </div>
       </div>
 

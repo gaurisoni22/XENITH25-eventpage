@@ -44,7 +44,9 @@
 }
 .mainbox{
   display:flex;
-  justify-content:space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:40px;
 } 
 .box{
   height: 300px;
@@ -57,7 +59,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  transition:all 0.8s;
   
 }
 .poster{
