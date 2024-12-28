@@ -8,8 +8,20 @@ function App() {
 
   return (
     <div className='main'>
-      <img  className="icewidth"   src={icetopbg} alt="icetop"></img>
-      <img   className="icewidth"   src={icebottombg} alt="icebottom"></img>
+    <div className='toppart'><h1><center>EVENTS</center></h1></div>
+    <div className='content'>
+      <div className='mainbox'>
+        <div className=' box '>eureka</div>
+        <div className=' box '>eureka</div>
+        <div className=' box '>eureka</div>
+
+
+      </div>
+    </div>
+
+     <div className='bottompart'></div> 
+     
+
     </div>
   )
 
