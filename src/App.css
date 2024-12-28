@@ -47,13 +47,43 @@
   justify-content:space-evenly;
 } 
 .box{
-  height: 250px;
-  width:250px;
+  height: 300px;
+  width:300px;
   background-color: #539cc9;
   border-radius: 25px;
   box-shadow: 7px 7px lightblue;
   filter: drop-shadow(0px 0px 8px rgb(166, 217, 235));
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   
+}
+.poster{
+  height:260px;
+  width:260px;
+ 
+}
+ .box:hover{
+  transform: scale(110%);
+} 
+.box:hover>.poster{
+  height:220px;
+  width:220px;
+
+}
+.box>h2{
+  display:none;
+}
+.box>h3{
+  display:none;
+}
+.box:hover>h2{
+  display:block;
+}
+.box:hover>h3{
+  display:block;
 }
 
 

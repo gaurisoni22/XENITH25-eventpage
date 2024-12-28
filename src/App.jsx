@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import icetopbg from './assets/icetopbg.jpg'
 import icebottombg from './assets/icebottombg.jpg'
+import Hackstreet from './assets/Hackstreet.png'
 import './App.css'
 
 function App() {
@@ -13,7 +14,12 @@ function App() {
       
       <div className='content'>
         <div className='mainbox'>
-          <div className=' box '>eureka</div>
+          <div className=' box '>
+            <img  className="poster" src={Hackstreet} alt="hackstreetimg"></img>
+            <h2>HACKSTREET 2.0</h2>
+            <h3>4th Feb 2025</h3>
+          </div>
+
           <div className=' box '>eureka</div>
           <div className=' box '>eureka</div>
         </div>
