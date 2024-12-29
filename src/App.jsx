@@ -10,7 +10,7 @@ function App() {
   return (
     <div className='main'>
       <div className='toppart'></div>
-      <h2 className='events-heading'><center>EVENTS</center></h2>
+      <h1 className='events-heading'><center>EVENTS</center></h1>
       
       <div className='content'>
         <div className='mainbox'>
