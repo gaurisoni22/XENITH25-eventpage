@@ -80,6 +80,12 @@
   width:260px;
  
 }
+.box {
+  position: relative;
+  /* Other styles */
+}
+
+
 button{
   width:80px;
   height:30px;
