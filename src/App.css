@@ -3,23 +3,22 @@
   src: local('Snowice'), url(./fonts/SNOWICE.ttf) format('truetype');
 }
 
-
-*{
-  margin:0px;
-  padding:0px; 
-}
-.main{
-  display:block;
-  width:100vw;
-  background-color:#022d55 ;
-
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.toppart{
+.main {
+  display: block;
+  width: 100vw;
+  background-color: #022d55;
+}
+
+.toppart {
   background-image: url("assets/icetopbg.jpg");
   background-size: contain;
-  width:100%;
-  height:20vh;
+  width: 100%;
+  height: 20vh;
   margin-bottom: 2px;
 }
 
@@ -32,117 +31,106 @@
   color: white;
   font-size: 7rem;
   font-weight: bold;
-  font-family: 'Haettenschweiler'  ;
+  font-family: 'Haettenschweiler';
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
   margin-bottom: 30px;
   font-family: "Snowice", sans-serif;
   text-shadow: 4px 4px 7px #4adfe7;
 }
 
+.content {
+  background-color: #022d55;
+  width: 100%;
+}
 
-.content{
-  background-color:#022d55 ;
-  width:100%;
-} 
-
-.bottompart{
+.bottompart {
   background-image: url("assets/icebottombg.jpg");
   background-size: contain;
-  width:100%;
-  height:20vh;
+  width: 100%;
+  height: 20vh;
 }
-.mainbox{
-  display:flex;
+
+.mainbox {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap:60px;
+  gap: 60px;
   margin-inline: 100px;
-} 
-.box{
+}
+
+.box {
   height: 350px;
-  width:300px;
+  width: 300px;
   background-color: #539cc9;
   border-radius: 25px;
   box-shadow: 7px 7px lightblue;
   filter: drop-shadow(0px 0px 8px rgb(166, 217, 235));
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition:all 0.9s;
-  gap:5px;
+  transition: transform 0.8s ease, filter 0.8s ease;  /* Smoother transition on hover off */
+  gap: 5px;
   transform-origin: 50% 65%;
- 
-  
 }
-.poster{
-  height:260px;
-  width:260px;
- 
+
+.poster {
+  height: 260px;
+  width: 260px;
+  transition: all 0.8s ease;  /* Smooth resizing and filtering */
 }
+
 .box {
   position: relative;
-  /* Other styles */
 }
 
-
-button{
-  width:80px;
-  height:30px;
-  background-color:lightblue;
+button {
+  width: 80px;
+  height: 30px;
+  background-color: lightblue;
   border-radius: 10px;
-  font-style:normal;
+  font-style: normal;
 }
- .box:hover{
-  transform: scale(110%);
-  filter: brightness(110%);
-  transition-delay: .5ms;
 
-} 
-.box:hover>.poster{
-  height:220px;
-  width:220px;
-  transition: transform 2.5s ease ;
+.box:hover {
+  transform: scale(1.1);  /* Slight scale for the box */
+  filter: brightness(110%);
+}
+
+.box:hover > .poster {
+  height: 220px;
+  width: 220px;
   filter: brightness(120%);
 }
-.box>h2{
+
+.box > h2,
+.box > h3,
+.box > button {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 1.5s linear;
-  
-
 }
-h2{
+
+h2 {
   font-style: italic;
 }
-.box>h3{
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 1.5s linear;
-  
-}
-h3{
+
+h3 {
   font-style: oblique;
 }
-.box>button{
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 1.5s linear;
-}
-.box:hover>h2{
- visibility: visible;
- opacity: 1;
- font-family:'fantasy';
-}
-.box:hover>h3{
+
+.box:hover > h2 {
   visibility: visible;
- opacity: 1;
-   
+  opacity: 1;
+  font-family: 'fantasy';
 }
-.box:hover>button{
+
+.box:hover > h3 {
   visibility: visible;
- opacity: 1;
+  opacity: 1;
 }
 
-
-
+.box:hover > button {
+  visibility: visible;
+  opacity: 1;
+}
